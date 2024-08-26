@@ -89,7 +89,7 @@ const FeatureTab = (
     <div
       onClick={props.onClick}
       onMouseEnter={handleTabHover}
-      className="border border-white/15 p-2.5 rounded-xl flex gap-2.5 items-center lg:flex-1 relative"
+      className="border border-white/15 p-2.5 rounded-xl flex gap-2.5 items-center lg:flex-1 relative hover:cursor-pointer"
       ref={tabRef}
     >
       <AnimatePresence>
